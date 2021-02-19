@@ -6,3 +6,6 @@ alias dr='docker-compose'
 
 # Git
 alias gcp='git cherry-pick'
+
+# Terminal
+alias trash='rm -rf'
