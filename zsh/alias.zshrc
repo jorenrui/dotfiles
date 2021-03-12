@@ -12,4 +12,3 @@ alias trash='rm -rf'
 
 # TypeORM
 alias orm='yarn orm:cli'
-alias ormg='yarn orm:cli migration'
