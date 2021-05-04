@@ -12,3 +12,6 @@ alias trash='rm -rf'
 
 # TypeORM
 alias orm='yarn orm:cli'
+
+# Rails
+alias rails:jobs="bundle exec sidekiq start"
