@@ -5,8 +5,13 @@ alias composer='php /usr/local/bin/composer.phar'
 alias dr='docker-compose'
 
 # Git
-alias gcp='git cherry-pick'
-alias gprune='git remote prune origin'
+alias git:main='git checkout main'
+alias git:develop='git checkout develop'
+alias git:list='git branch'
+alias git:new='git checkout -b'
+alias git:delete='git branch -D'
+alias git:pick='git cherry-pick'
+alias git:prune='git remote prune origin'
 
 # Terminal
 alias trash='rm -rf'
